@@ -1,6 +1,4 @@
 import { Request, Response, NextFunction } from 'express';
-import { UserRoleType } from '../types/user.types';
-import jwt from 'jsonwebtoken';
 
 const verifyRole = (...roleArray: number[]) => {
     return (req: Request, res: Response, next: NextFunction) => {
