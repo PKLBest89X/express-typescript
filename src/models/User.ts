@@ -25,4 +25,5 @@ const userSchema = new Schema<UserType>({
     versionKey: false
 })
 
+
 export default model<UserType>("User", userSchema);
