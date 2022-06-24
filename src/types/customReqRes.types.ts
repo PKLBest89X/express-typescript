@@ -30,3 +30,10 @@ export interface TplusType {
     proQty: number;
     proPrice: number;
 }
+
+export interface AAA {
+    proId: string;
+    proName: string;
+    proQty: number;
+    proPrice: number;
+}
