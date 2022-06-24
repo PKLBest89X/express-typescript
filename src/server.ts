@@ -57,7 +57,7 @@ app.use("/refreshToken", refreshTokenRoute);
 app.use("/logout", logoutRoute);
 
 
-// app.use(verifyToken);
+app.use(verifyToken);
 app.use("/employees", employeeRoute);
 
 
