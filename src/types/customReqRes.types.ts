@@ -31,7 +31,7 @@ export interface Testgg {
     proPrice: number;
 }
 
-export interface HHHH {
+export interface BB {
     proId: string;
     proName: string;
     proQty: number;
