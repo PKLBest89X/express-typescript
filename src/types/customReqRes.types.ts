@@ -23,3 +23,10 @@ export interface TestType {
     proQty: number;
     proPrice: number;
 }
+
+export interface MyTestType {
+    proId: string;
+    proName: string;
+    proQty: number;
+    proPrice: number;
+}
