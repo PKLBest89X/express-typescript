@@ -24,7 +24,7 @@ export interface TestType {
     proPrice: number;
 }
 
-export interface MyTestType {
+export interface TplusType {
     proId: string;
     proName: string;
     proQty: number;
