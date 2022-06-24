@@ -24,7 +24,7 @@ export interface TestType {
     proPrice: number;
 }
 
-export interface TplusType {
+export interface Testgg {
     proId: string;
     proName: string;
     proQty: number;
